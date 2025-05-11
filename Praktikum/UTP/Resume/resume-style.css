@@ -67,3 +67,199 @@ nav {
     height: 40px;
     width: auto;
 }
+
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px 60px;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .resume-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #f3f4f7;
+  }
+  
+  .cv-header-image {
+    max-width: 70%;
+    height: auto;
+  }
+
+.education-section {
+    background-color: #f3f4f7;
+    border-radius:17% 17% 0 0;
+    z-index: 10;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    padding: 100px 20px 180px;
+    text-align: center;
+    position: relative;
+    z-index: 20; 
+    margin-top: -100px;
+  }
+  
+  .education-title {
+    position: relative;
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin-top: -10px;
+  }
+  
+  .education-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .university-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .education-details {
+    text-align: left;
+    max-width: 500px;
+  }
+  
+  .university-name {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .education-duration {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .course-tag {
+    background-color: #333;
+    color: #f3f4f7;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-size: 14px;
+  }
+
+  .experience-section {
+    position: relative;
+    background: #333;
+    padding: 80px 50px;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+    z-index: 30;
+    margin-top: -100px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .experience-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 40px;
+    border-radius: 20px;
+    background-color: #f3f4f7;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+
+  .experience-column {
+    flex: 1 1 30%;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    min-width: 280px;
+    margin-left: 20px;
+  }
+  
+  .experience-column h2 {
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #333;
+  }
+  
+  .institution {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .institution img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 45px;
+    border-left: 3px solid #333;
+    margin-left: 23px;
+
+  }
+  
+  .position {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: -10px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    left: -52px;
+    top: 0px;
+  }
+  
+  .position-details h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+  
+  .position-details p.time {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+  }
+  
+  .position-details ul.responsibilities {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: left;
+    color: #444;
+  }
+  
+  .position-details ul.responsibilities li {
+    margin-bottom: 5px;
+  }
+  
+  

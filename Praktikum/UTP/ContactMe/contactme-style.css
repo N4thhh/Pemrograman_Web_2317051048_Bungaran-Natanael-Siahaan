@@ -67,3 +67,102 @@ nav {
     height: 40px;
     width: auto;
 }
+
+.contact-section {
+    padding: 130px 10px;
+    text-align: center;
+}
+
+.contact-header {
+    margin-bottom: 50px;
+}
+
+.contact-header h2 {
+    font-size: 36px;
+    margin: -10px;
+}
+
+.contact-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 650px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: #f3f4f7;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #f3f4f7;
+    color: #333;
+    border: solid 1px #333;
+}
+
+.info {
+    max-width: 350px;
+    padding-top: 10px;
+}
+
+.info h3 {
+    font-size: 22px;
+}
+
+.info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    align-items: left;
+    gap: 10px;
+    font-size: 40px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #000072;
+}

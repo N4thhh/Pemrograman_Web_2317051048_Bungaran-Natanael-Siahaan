@@ -200,7 +200,7 @@ nav {
   
   .experience-section {
     display: flex;
-    flex-direction: row; /* Keep experience cards horizontal */
+    flex-direction: row;
     justify-content: space-between;
     gap: 40px;
     padding: 80px 40px;
